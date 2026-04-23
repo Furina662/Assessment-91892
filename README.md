@@ -10,8 +10,8 @@ https://github.com/Furina662/Assessment-91892
         -js.js (javascript file for index.html)     
 #### json
         -subject.json
-        (all subject standards get from nzqa website and only include achievement standards for this project)
-        https://www.nzqa.govt.nz/ncea/assessment/search.do?query=Accounting+-+Generic&view=all&level=03
+        (all subject standards get from schhol bridge course selsetion page and only include achievement standards for this project)
+        https://mrgs.bridge.school.nz/course_selection/learning_areas
 #### pictures
         -MRGS-favicon.png(website icon)
 #### py
