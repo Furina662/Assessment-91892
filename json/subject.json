@@ -1,0 +1,1094 @@
+{
+    "ncea_level_3_standards": {
+        "13 Accounting (13ACC3)": {
+            "standards": [
+                {
+                    "Assessment-standard": "A.S. 91404 v2",
+                    "Credits": "4",
+                    "Description": "Accounting 3.1 - Demonstrate understanding of accounting concepts for a New Zealand reporting entity",
+                    "Internal-or-External": "External"
+                },
+                {
+                    "Assessment-standard": "A.S. 91405 v2",
+                    "Credits": "4",
+                    "Description": "Accounting 3.2 - Demonstrate understanding of accounting for partnerships",
+                    "Internal-or-External": "Internal"
+                },
+                {
+                    "Assessment-standard": "A.S. 91406 v2",
+                    "Credits": "5",
+                    "Description": "Accounting 3.3 - Demonstrate understanding of company financial statement preparation",
+                    "Internal-or-External": "External"
+                },
+                {
+                    "Assessment-standard": "A.S. 91407 v2",
+                    "Credits": "5",
+                    "Description": "Accounting 3.4 - Prepare a report for an external user that interprets the annual report of a New Zealand reporting entity",
+                    "Internal-or-External": "Internal"
+                },
+                {
+                    "Assessment-standard": "A.S. 91409 v2",
+                    "Credits": "4",
+                    "Description": "Accounting 3.6 - Demonstrate understanding of a job cost subsystem for an entity",
+                    "Internal-or-External": "Internal"
+                }
+            ]
+        },
+        "13 Accounting for Beginners (13ACC3B)": {
+            "standards": [
+                {
+                    "Assessment-standard": "A.S. 91405 v2",
+                    "Credits": "4",
+                    "Description": "Accounting 3.2 - Demonstrate understanding of accounting for partnerships",
+                    "Internal-or-External": "Internal"
+                },
+                {
+                    "Assessment-standard": "A.S. 91407 v2",
+                    "Credits": "5",
+                    "Description": "Accounting 3.4 - Prepare a report for an external user that interprets the annual report of a New Zealand reporting entity",
+                    "Internal-or-External": "Internal"
+                },
+                {
+                    "Assessment-standard": "A.S. 91408 v2",
+                    "Credits": "4",
+                    "Description": "Accounting 3.5 - Demonstrate understanding of management accounting to inform decision-making",
+                    "Internal-or-External": "External"
+                },
+                {
+                    "Assessment-standard": "A.S. 91409 v2",
+                    "Credits": "4",
+                    "Description": "Accounting 3.6 - Demonstrate understanding of a job cost subsystem for an entity",
+                    "Internal-or-External": "Internal"
+                }
+            ]
+        },
+        "13 Economics (13ECS3)": {
+            "standards": [
+                {
+                    "Assessment-standard": "A.S. 91399 v2",
+                    "Credits": "4",
+                    "Description": "Economics 3.1 - Demonstrate understanding of the efficiency of market equilibrium",
+                    "Internal-or-External": "External"
+                },
+                {
+                    "Assessment-standard": "A.S. 91400 v2",
+                    "Credits": "4",
+                    "Description": "Economics 3.2 - Demonstrate understanding of the efficiency of different market structures using marginal analysis",
+                    "Internal-or-External": "External"
+                },
+                {
+                    "Assessment-standard": "A.S. 91401 v2",
+                    "Credits": "5",
+                    "Description": "Economics 3.3 - Demonstrate understanding of micro-economic concepts",
+                    "Internal-or-External": "Internal"
+                },
+                {
+                    "Assessment-standard": "A.S. 91402 v3",
+                    "Credits": "5",
+                    "Description": "Economics 3.4 - Demonstrate understanding of government interventions where the market fails to deliver efficient or equitable outcomes",
+                    "Internal-or-External": "Internal"
+                }
+            ]
+        },
+        "13 Economics for Beginners (13ECS3B)": {
+            "standards": [
+                {
+                    "Assessment-standard": "A.S. 91399 v2",
+                    "Credits": "4",
+                    "Description": "Economics 3.1 - Demonstrate understanding of the efficiency of market equilibrium",
+                    "Internal-or-External": "External"
+                },
+                {
+                    "Assessment-standard": "A.S. 91400 v2",
+                    "Credits": "4",
+                    "Description": "Economics 3.2 - Demonstrate understanding of the efficiency of different market structures using marginal analysis",
+                    "Internal-or-External": "External"
+                },
+                {
+                    "Assessment-standard": "A.S. 91401 v2",
+                    "Credits": "5",
+                    "Description": "Economics 3.3 - Demonstrate understanding of micro-economic concepts",
+                    "Internal-or-External": "Internal"
+                },
+                {
+                    "Assessment-standard": "A.S. 91402 v3",
+                    "Credits": "5",
+                    "Description": "Economics 3.4 - Demonstrate understanding of government interventions where the market fails to deliver efficient or equitable outcomes",
+                    "Internal-or-External": "Internal"
+                }
+            ]
+        },
+        "13 English Literacy (13ENG2L)": {
+            "standards": [
+                {
+                    "Assessment-standard": "A.S. 91099 v4",
+                    "Credits": "4",
+                    "Description": "English 2.2 - Analyse specified aspect(s) of studied visual or oral text(s), supported by evidence",
+                    "Internal-or-External": "External"
+                },
+                {
+                    "Assessment-standard": "A.S. 91101 v2",
+                    "Credits": "6",
+                    "Description": "English 2.4 - Produce a selection of crafted and controlled writing",
+                    "Internal-or-External": "Internal"
+                },
+                {
+                    "Assessment-standard": "A.S. 91104 v2",
+                    "Credits": "4",
+                    "Description": "English 2.7 - Analyse significant connections across texts, supported by evidence",
+                    "Internal-or-External": "Internal"
+                },
+                {
+                    "Assessment-standard": "A.S. 91105 v2",
+                    "Credits": "4",
+                    "Description": "English 2.8 - Use information literacy skills to form developed conclusion(s)",
+                    "Internal-or-External": "Internal"
+                },
+                {
+                    "Assessment-standard": "A.S. 91478 v1",
+                    "Credits": "4",
+                    "Description": "English 3.7 - Respond critically to significant connections across texts, supported by evidence",
+                    "Internal-or-External": "Internal"
+                }
+            ]
+        },
+        "13 English Visual Language (13ENG3V)": {
+            "standards": [
+                {
+                    "Assessment-standard": "A.S. 91472 v1",
+                    "Credits": "4",
+                    "Description": "English 3.1 - Respond critically to specified aspect(s) of studied written text(s), supported by evidence",
+                    "Internal-or-External": "External"
+                },
+                {
+                    "Assessment-standard": "A.S. 91473 v1",
+                    "Credits": "4",
+                    "Description": "English 3.2 - Respond critically to specified aspect(s) of studied visual or oral text(s), supported by evidence",
+                    "Internal-or-External": "External"
+                },
+                {
+                    "Assessment-standard": "A.S. 91479 v1",
+                    "Credits": "4",
+                    "Description": "English 3.8 - Develop an informed understanding of literature and/or language using critical texts",
+                    "Internal-or-External": "Internal"
+                },
+                {
+                    "Assessment-standard": "A.S. 91480 v1",
+                    "Credits": "3",
+                    "Description": "English 3.9 - Respond critically to significant aspects of visual and/or oral text(s) through close reading, supported by evidence",
+                    "Internal-or-External": "Internal"
+                }
+            ]
+        },
+        "13 English Written Language (13ENG3W)": {
+            "standards": [
+                {
+                    "Assessment-standard": "A.S. 91472 v1",
+                    "Credits": "4",
+                    "Description": "English 3.1 - Respond critically to specified aspect(s) of studied written text(s), supported by evidence",
+                    "Internal-or-External": "External"
+                },
+                {
+                    "Assessment-standard": "A.S. 91473 v1",
+                    "Credits": "4",
+                    "Description": "English 3.2 - Respond critically to specified aspect(s) of studied visual or oral text(s), supported by evidence",
+                    "Internal-or-External": "External"
+                },
+                {
+                    "Assessment-standard": "A.S. 91475 v1",
+                    "Credits": "6",
+                    "Description": "English 3.4 - Produce a selection of fluent and coherent writing which develops, sustains, and structures ideas",
+                    "Internal-or-External": "Internal"
+                },
+                {
+                    "Assessment-standard": "A.S. 91476 v1",
+                    "Credits": "3",
+                    "Description": "English 3.5 - Create and deliver a fluent and coherent oral text which develops, sustains, and structures ideas",
+                    "Internal-or-External": "Internal"
+                },
+                {
+                    "Assessment-standard": "A.S. 91479 v1",
+                    "Credits": "4",
+                    "Description": "English 3.8 - Develop an informed understanding of literature and/or language using critical texts",
+                    "Internal-or-External": "Internal"
+                }
+            ]
+        },
+        "13 Health (13HEA3)":{
+            "standards":[
+                {
+                    "Assessment-standard":"A.S. 91461 v3",
+                    "Credits": "5",
+                    "Description": "Health 3.1 - Analyse a New Zealand health issue",
+                    "Internal-or-External": "Internal"
+                },
+                {
+                    "Assessment-standard":"A.S. 91462 v2",
+                    "Credits": "5",
+                    "Description": "Health 3.2 - Analyse an international health issue",
+                    "Internal-or-External": "External"
+                },
+                {
+                    "Assessment-standard":"A.S. 91463 v3",
+                    "Credits": "5",
+                    "Description": "Health 3.3 - Evaluate health practices currently used in New Zealand",
+                    "Internal-or-External": "Internal"
+                },
+                {
+                    "Assessment-standard":"A.S. 91464 v2",
+                    "Credits": "4",
+                    "Description": "Health 3.4 - Analyse a contemporary ethical issue in relation to well-being",
+                    "Internal-or-External": "Internal"
+                }
+            ]
+        },
+        "13 Sports and Recreation (13SPR3)":{
+            "standards":[
+                {
+                    "Assessment-standard":"A.S. 91501 v2",
+                    "Credits": "4",
+                    "Description": "Physical Education 3.4 - Demonstrate quality performance of a physical activity in an applied setting",
+                    "Internal-or-External": "Internal"  
+                }
+            ]
+        },
+        "13 Chinese (13CHN3)":{
+            "standards":[
+                {
+                    "Assessment-standard":"A.S. 91533 v2",
+                    "Credits": "5",
+                    "Description": "Chinese 3.1 - Demonstrate understanding of a variety of extended spoken Chinese texts",
+                    "Internal-or-External": "External"  
+                },
+                {
+                    "Assessment-standard":"A.S. 91534 v1",
+                    "Credits": "3",
+                    "Description": "Chinese 3.2 - Give a clear spoken presentation in Chinese that communicates a critical response to stimulus material",
+                    "Internal-or-External": "Internal"  
+                },
+                {
+                    "Assessment-standard":"A.S. 91535 v1",
+                    "Credits": "6",
+                    "Description": "Chinese 3.3 - Interact clearly using spoken Chinese to explore and justify varied ideas and perspectives in different situations",
+                    "Internal-or-External": "External"  
+                },
+                {
+                    "Assessment-standard":"A.S. 91536 v1",
+                    "Credits": "5",
+                    "Description": "Chinese 3.4 - Demonstrate understanding of a variety of extended written and/or visual Chinese texts",
+                    "Internal-or-External": "Internal"  
+                },
+                {
+                    "Assessment-standard":"A.S. 91537 v1",
+                    "Credits": "5",
+                    "Description": "Chinese 3.5 - Write a variety of text types in clear Chinese to explore and justify varied ideas and perspectives",
+                    "Internal-or-External": "Internal"  
+                }
+            ]
+        },
+        "13 French (13FRE3)":{
+            "standards":[
+                {
+                    "Assessment-standard":"A.S. 91543 v2",
+                    "Credits": "5",
+                    "Description": "French 3.1 - Demonstrate understanding of a variety of extended spoken French texts",
+                    "Internal-or-External": "External"  
+                },
+                {
+                    "Assessment-standard":"A.S. 91544 v1",
+                    "Credits": "3",
+                    "Description": "French 3.2 - Give a clear spoken presentation in French that communicates a critical response to stimulus material",
+                    "Internal-or-External": "Internal"  
+                },
+                {
+                    "Assessment-standard":"A.S. 91545 v1",
+                    "Credits": "6",
+                    "Description": "French 3.3 - Interact clearly using spoken French to explore and justify varied ideas and perspectives in different situations",
+                    "Internal-or-External": "Internal"  
+                },
+                {
+                    "Assessment-standard":"A.S. 91546 v1",
+                    "Credits": "5",
+                    "Description": "French 3.4 - Demonstrate understanding of a variety of extended written and/or visual French texts",
+                    "Internal-or-External": "External"  
+                },
+                {
+                    "Assessment-standard":"A.S. 91547 v1",
+                    "Credits": "5",
+                    "Description": "French 3.5 - Write a variety of text types in clear French to explore and justify varied ideas and perspectives",
+                    "Internal-or-External": "Internal"  
+                }
+            ]
+        },
+        "13 Japanese (13JPN3)":{
+             "standards":[     
+                {
+                    "Assessment-standard":"A.S. 91553 v2",
+                    "Credits": "5",
+                    "Description": "Japanese 3.1 - Demonstrate understanding of a variety of extended spoken Japanese texts",
+                    "Internal-or-External": "External"  
+                },
+                {
+                    "Assessment-standard":"A.S. 91554 v1",
+                    "Credits": "3",
+                    "Description": "Japanese 3.2 - Give a clear spoken presentation in Japanese that communicates a critical response to stimulus material",
+                    "Internal-or-External": "Internal"  
+                },
+                {
+                    "Assessment-standard":"A.S. 91555 v1",
+                    "Credits": "6",
+                    "Description": "Japanese 3.3 - Interact clearly using spoken Japanese to explore and justify varied ideas and perspectives in different situations",
+                    "Internal-or-External": "Internal"  
+                },  
+                {
+                    "Assessment-standard":"A.S. 91556 v1",
+                    "Credits": "5",
+                    "Description": "Japanese 3.4 - Demonstrate understanding of a variety of extended written and/or visual Japanese texts",
+                    "Internal-or-External": "External"  
+                },
+                {
+                    "Assessment-standard":"A.S. 91557 v1",
+                    "Credits": "5",
+                    "Description": "Japanese 3.5 - Write a variety of text types in clear Japanese to explore and justify varied ideas and perspectives",
+                    "Internal-or-External": "Internal"  
+                }
+            ]
+        },
+        "13 Samoan (13SAM3)":{
+            "standards":[     
+                {
+                    "Assessment-standard":"A.S. 91563 v2",
+                    "Credits": "5",
+                    "Description": "Samoan 3.1 - Demonstrate understanding of a variety of extended spoken Samoan texts",
+                    "Internal-or-External": "External"  
+                },
+                {
+                    "Assessment-standard":"A.S. 91564 v1",
+                    "Credits": "3",
+                    "Description": "Samoan 3.2 - Give a clear spoken presentation in Samoan that communicates a critical response to stimulus material",
+                    "Internal-or-External": "Internal"  
+                },
+                {
+                    "Assessment-standard":"A.S. 91565 v1",
+                    "Credits": "6",
+                    "Description": "Samoan 3.3 - Interact clearly using spoken Samoan to explore and justify varied ideas and perspectives in different situations",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91566 v1",
+                    "Credits": "5",
+                    "Description": "Samoan 3.4 - Demonstrate understanding of a variety of extended written and/or visual Samoan texts",
+                    "Internal-or-External": "External"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91567 v1",
+                    "Credits": "5",
+                    "Description": "Samoan 3.5 - Write a variety of text types in clear Samoan to explore and justify varied ideas and perspectives",
+                    "Internal-or-External": "Internal"  
+                }
+            ]
+        },
+        "13 Te Reo Maori (13MAO3)":{
+            "standards":[
+                {   
+                    "Assessment-standard":"A.S. 91650 v2",
+                    "Credits": "4",
+                    "Description": "Te Reo Maori 3.1 - Whakarongo kia mohio ki te reo Maori o te ao whanui",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91652 v2",
+                    "Credits": "6",
+                    "Description": "Te Reo Maori 3.3 - Panui kia mohio ki te reo Maori o te ao whanui",
+                    "Internal-or-External": "External"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91654 v2",
+                    "Credits": "6",
+                    "Description": "Te Reo Maori 3.5 - Waihanga tuhinga whai take i te reo Maori o te ao whanui",
+                    "Internal-or-External": "Internal"  
+                }
+            ]   
+        },
+        "13 Mathematics (13MAT3)":{
+             "standards":[
+                {   
+                    "Assessment-standard":"A.S. 91574 v2",
+                    "Credits": "3",
+                    "Description": "Mathematics and Statistics 3.2 - Apply linear programming methods in solving problems",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91575 v2",
+                    "Credits": "4",
+                    "Description": "Mathematics and Statistics 3.3 - Apply trigonometric methods in solving problems",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91576 v2",
+                    "Credits": "2",
+                    "Description": "Mathematics and Statistics 3.4 - Use critical path analysis in solving problems",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91581 v2",
+                    "Credits": "4",
+                    "Description": "Mathematics and Statistics 3.9 - Investigate bivariate measurement data",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91582 v2",
+                    "Credits": "4",
+                    "Description": "Mathematics and Statistics 3.10 - Use statistical methods to make a formal inference",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91587 v2",
+                    "Credits": "3",
+                    "Description": "Mathematics and Statistics 3.15 - Apply systems of simultaneous equations in solving problems",
+                    "Internal-or-External": "Internal"  
+                }
+            ]
+        },
+        "13 Mathematics with Calculus (13MAC3)":{
+            "standards":[
+                {   
+                    "Assessment-standard":"A.S. 91575 v2",
+                    "Credits": "4",
+                    "Description": "Mathematics and Statistics 3.3 - Apply trigonometric methods in solving problems",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91577 v2",
+                    "Credits": "5",
+                    "Description": "Mathematics and Statistics 3.5 - Apply the algebra of complex numbers in solving problems",
+                    "Internal-or-External": "External"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91578 v2",
+                    "Credits": "6",
+                    "Description": "Mathematics and Statistics 3.6 - Apply differentiation methods in solving problems",
+                    "Internal-or-External": "External"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91579 v2",
+                    "Credits": "6",
+                    "Description": "Mathematics and Statistics 3.7 - Apply integration methods in solving problems",
+                    "Internal-or-External": "External"  
+                }
+            ]
+        },
+        "13 Mathematics with Statistics (13MAS3)":{
+            "standards":[
+                {   
+                    "Assessment-standard":"A.S. 91580 v2",
+                    "Credits": "4",
+                    "Description": "Mathematics and Statistics 3.8 - Investigate time series data",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91582 v2",
+                    "Credits": "4",
+                    "Description": "Mathematics and Statistics 3.10 - Use statistical methods to make a formal inference",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91583 v2",
+                    "Credits": "4",
+                    "Description": "Mathematics and Statistics 3.11 - Conduct an experiment to investigate a situation using experimental design principles",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91585 v2",
+                    "Credits": "4",
+                    "Description": "Mathematics and Statistics 3.13 - Apply probability concepts in solving problems",
+                    "Internal-or-External": "External"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91586 v2",
+                    "Credits": "4",
+                    "Description": "Mathematics and Statistics 3.14 - Apply probability distributions in solving problems",
+                    "Internal-or-External": "External"  
+                }
+            ]
+        },
+        "13 Media Studies (13MED3)":{
+            "standards":[
+                {   
+                    "Assessment-standard":"A.S. 91491 v2",
+                    "Credits": "3",
+                    "Description": "Media Studies 3.2 - Demonstrate understanding of the meaning of a media text through different readings",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91493 v3",
+                    "Credits": "4",
+                    "Description": "Media Studies 3.4 - Demonstrate understanding of a relationship between a media genre and society",
+                    "Internal-or-External": "External"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91494 v2",
+                    "Credits": "4",
+                    "Description": "Media Studies 3.5 - Produce a design for a media product that meets the requirements of a brief",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91495 v2",
+                    "Credits": "6",
+                    "Description": "Media Studies 3.6 - Produce a media product to meet the requirements of a brief",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91497 v2",
+                    "Credits": "3",
+                    "Description": "Media Studies 3.8 - Write a media text to meet the requirements of a brief",
+                    "Internal-or-External": "Internal"  
+                }
+            ]
+        },
+        "13 Making Music (13MKM3)":{
+            "standards":[
+                {   
+                    "Assessment-standard":"A.S. 91416 v2",
+                    "Credits": "8",
+                    "Description": "Making Music 3.1 - Perform two programmes of music as a featured soloist",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91418 v2",
+                    "Credits": "4",
+                    "Description": "Making Music 3.3 - Demonstrate ensemble skills by performing two substantial pieces of music as a member of a group",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91419 v2",
+                    "Credits": "8",
+                    "Description": "Making Music 3.4 - Communicate musical intention by composing three original pieces of music",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91422 v2",
+                    "Credits": "4",
+                    "Description": "Music Studies 3.7 - Analyse a substantial music work",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91425 v2",
+                    "Credits": "6",
+                    "Description": "Music Studies 3.10 - Research a music topic",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91849 v1",
+                    "Credits": "8",
+                    "Description": "Making Music 3.11 - Compose three original songs that express imaginative thinking",
+                    "Internal-or-External": "Internal"  
+                }
+            ]
+        },
+        "13 Music Studies (13MSS3)":{
+            "standards":[
+                {   
+                    "Assessment-standard":"A.S. 91416 v2",
+                    "Credits": "8",
+                    "Description": "Making Music 3.1 - Perform two programmes of music as a featured soloist",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91418 v2",
+                    "Credits": "4",
+                    "Description": "Making Music 3.3 - Demonstrate ensemble skills by performing two substantial pieces of music as a member of a group",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91419 v2",
+                    "Credits": "8",
+                    "Description": "Making Music 3.4 - Communicate musical intention by composing three original pieces of music",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91420 v2",
+                    "Credits": "4",
+                    "Description": "Making Music 3.5 - Integrate aural skills into written representation",
+                    "Internal-or-External": "External"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91421 v3",
+                    "Credits": "4",
+                    "Description": "Music Studies 3.6 - Demonstrate understanding of harmonic and tonal conventions in a range of music scores",
+                    "Internal-or-External": "External"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91422 v2",
+                    "Credits": "4",
+                    "Description": "Music Studies 3.7 - Analyse a substantial music work",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91425 v2",
+                    "Credits": "6",
+                    "Description": "Music Studies 3.10 - Research a music topic",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91849 v1",
+                    "Credits": "8",
+                    "Description": "Making Music 3.11 - Compose three original songs that express imaginative thinking",
+                    "Internal-or-External": "Internal"  
+                }
+            ]
+        },
+        "13 Nailed It Academy (13NIA3)":{
+            "standards":[
+                {   
+                    "Assessment-standard":"A.S. 91574 v2",
+                    "Credits": "3",
+                    "Description": "Mathematics and Statistics 3.2 - Apply linear programming methods in solving problems",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91587 v2",
+                    "Credits": "3",
+                    "Description": "Mathematics and Statistics 3.15 - Apply systems of simultaneous equations in solving problems",
+                    "Internal-or-External": "Internal"  
+                }
+            ]
+        },
+        "13 Dance (13DAN3)":{
+            "standards":[
+                {   
+                    "Assessment-standard":"A.S. 91588 v2",
+                    "Credits": "8",
+                    "Description": "Dance 3.1 - Produce a dance to realise a concept",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91589 v2",
+                    "Credits": "4",
+                    "Description": "Dance 3.2 - Choreograph a dance to develop and resolve ideas",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91590 v2",
+                    "Credits": "4",
+                    "Description": "Dance 3.3 - Perform a solo or duet dance",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91591 v2",
+                    "Credits": "4",
+                    "Description": "Dance 3.4 - Perform a group dance",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91593 v2",
+                    "Credits": "4",
+                    "Description": "Dance 3.6 - Demonstrate understanding of dance performance practices",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91594 v2",
+                    "Credits": "4",
+                    "Description": "Dance 3.7 - Analyse a dance performance",
+                    "Internal-or-External": "External"  
+                }
+            ]
+        },
+        "13 Drama (13DRA3)":{
+            "standards":[
+                {   
+                    "Assessment-standard":"A.S. 91512 v2",
+                    "Credits": "4",
+                    "Description": "Drama 3.1 - Interpret scripted text to integrate drama techniques in performance",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91513 v2",
+                    "Credits": "5",
+                    "Description": "Drama 3.2 - Devise and perform a drama to realise a concept",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91517 v2",
+                    "Credits": "5",
+                    "Description": "Drama 3.6 - Perform a substantial acting role in a significant production",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91518 v3",
+                    "Credits": "4",
+                    "Description": "Drama 3.7 - Demonstrate understanding of live drama performance",
+                    "Internal-or-External": "External"  
+                }
+            ]
+        },
+        "13 Chemistry (13CHE3)":{
+            "standards":[
+                {   
+                    "Assessment-standard":"A.S. 91313 v2",
+                    "Credits": "4",
+                    "Description": "Visual Arts 2.2 - Use drawing methods to apply knowledge of conventions appropriate to printmaking",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91388 v2",
+                    "Credits": "3",
+                    "Description": "Chemistry 3.2 - Demonstrate understanding of spectroscopic data in chemistry",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91389 v2",
+                    "Credits": "3",
+                    "Description": "Chemistry 3.3 - Demonstrate understanding of chemical processes in the world around us",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91390 v2",
+                    "Credits": "5",
+                    "Description": "Chemistry 3.4 - Demonstrate understanding of thermochemical principles and the properties of particles and substances",
+                    "Internal-or-External": "External"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91391 v2",
+                    "Credits": "5",
+                    "Description": "Chemistry 3.5 - Demonstrate understanding of the properties of organic compounds",
+                    "Internal-or-External": "External"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91392 v2",
+                    "Credits": "5",
+                    "Description": "Chemistry 3.6 - Demonstrate understanding of equilibrium principles in aqueous systems",
+                    "Internal-or-External": "External"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91393 v2",
+                    "Credits": "3",
+                    "Description": "Chemistry 3.7 - Demonstrate understanding of oxidation-reduction processes",
+                    "Internal-or-External": "Internal"  
+                }
+            ]
+        }, 
+        "13 Physics (13PHX3)":{
+            "standards":[
+                {   
+                    "Assessment-standard":"A.S. 91521 v2",
+                    "Credits": "4",
+                    "Description": "Physics 3.1 - Carry out a practical investigation to test a physics theory relating two variables in a non-linear relationship",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91523 v2",
+                    "Credits": "4",
+                    "Description": "Physics 3.3 - Demonstrate understanding of wave systems",
+                    "Internal-or-External": "External"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91524 v2",
+                    "Credits": "6",
+                    "Description": "Physics 3.4 - Demonstrate understanding of mechanical systems",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91525 v2",
+                    "Credits": "3",
+                    "Description": "Physics 3.5 - Demonstrate understanding of Modern Physics",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91526 v2",
+                    "Credits": "6",
+                    "Description": "Physics 3.6 - Demonstrate understanding of electrical systems",
+                    "Internal-or-External": "External"  
+                }
+            ]
+        },  
+        "13 Classical Studies (13CLA3)":{
+            "standards":[
+                {   
+                    "Assessment-standard":"A.S. 91394 v2",
+                    "Credits": "4",
+                    "Description": "Classical Studies 3.1 - Analyse ideas and values of the classical world",
+                    "Internal-or-External": "External"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91397 v2",
+                    "Credits": "6",
+                    "Description": "Classical Studies 3.4 - Demonstrate understanding of significant ideology(ies) in the classical world",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91398 v2",
+                    "Credits": "6",
+                    "Description": "Classical Studies 3.5 - Demonstrate understanding of the lasting influences of the classical world on other cultures across time",
+                    "Internal-or-External": "Internal"  
+                }
+            ]
+        },
+        "13 Geography (13GEO3)":{
+            "standards":[
+                {   
+                    "Assessment-standard":"A.S. 91426 v2",
+                    "Credits": "4",
+                    "Description": "Geography 3.1 - Demonstrate understanding of how interacting natural processes shape a New Zealand geographic environment",
+                    "Internal-or-External": "External"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91427 v2",
+                    "Credits": "4",
+                    "Description": "Geography 3.2 - Demonstrate understanding of how a cultural process shapes geographic environment(s)",
+                    "Internal-or-External": "External"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91429 v2",
+                    "Credits": "4",
+                    "Description": "Geography 3.4 - Demonstrate understanding of a given environment(s) through selection and application of geographic concepts and skills",
+                    "Internal-or-External": "External"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91430 v3",
+                    "Credits": "5",
+                    "Description": "Geography 3.5 - Conduct geographic research with consultation",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91431 v2",
+                    "Credits": "3",
+                    "Description": "Geography 3.6 - Analyse aspects of a contemporary geographic issue",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91432 v3",
+                    "Credits": "3",
+                    "Description": "Geography 3.7 - Analyse aspects of a geographic topic at a global scale",
+                    "Internal-or-External": "Internal"  
+                }
+            ]
+        },
+        "13 History (13HIS3)":{
+            "standards":[
+                {   
+                    "Assessment-standard":"A.S. 91434 v3",
+                    "Credits": "5",
+                    "Description": "History 3.1 - Research an historical event or place of significance to New Zealanders, using primary and secondary sources",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91435 v3",
+                    "Credits": "5",
+                    "Description": "History 3.2 - Analyse an historical event, or place, of significance to New Zealanders",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91437 v2",
+                    "Credits": "5",
+                    "Description": "History 3.4 - Analyse different perspectives of a contested event of significance to New Zealanders",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91438 v2",
+                    "Credits": "6",
+                    "Description": "History 3.5 - Analyse the causes and consequences of a significant historical event",
+                    "Internal-or-External": "External"  
+                }
+            ]
+        },
+        "13 Computer Science (13CSC3)":{
+            "standards":[
+                {   
+                    "Assessment-standard":"A.S. 91901 v1",
+                    "Credits": "3",
+                    "Description": "Digital Technologies and Hangarau Matihiko 3.2 - Apply user experience methodologies to develop a design for a digital technologies outcome",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91906 v2",
+                    "Credits": "6",
+                    "Description": "Digital Technologies and Hangarau Matihiko 3.7 - Use complex programming techniques to develop a computer program",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91907 v2",
+                    "Credits": "6",
+                    "Description": "Digital Technologies and Hangarau Matihiko 3.8 - Use complex processes to develop a digital technologies outcome",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91908 v1",
+                    "Credits": "3",
+                    "Description": "Digital Technologies and Hangarau Matihiko 3.9 - Analyse an area of computer science",
+                    "Internal-or-External": "External"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91909 v1",
+                    "Credits": "3",
+                    "Description": "Digital Technologies and Hangarau Matihiko 3.10 - Present a reflective analysis of developing a digital outcome",
+                    "Internal-or-External": "External"  
+                }
+            ]
+        },
+        "13 Design and Visual Communication (13DVC3)":{
+            "standards":[
+                {   
+                    "Assessment-standard":"A.S. 91627 v3",
+                    "Credits": "4",
+                    "Description": "Design and Visual Communication 3.30 - Initiate design ideas through exploration",
+                    "Internal-or-External": "External"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91628 v3",
+                    "Credits": "6",
+                    "Description": "Design and Visual Communication 3.31 - Develop a visual presentation that exhibits a design outcome to an audience",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91629 v3",
+                    "Credits": "6",
+                    "Description": "Design and Visual Communication 3.32 - Resolve a spatial design through graphics practice",
+                    "Internal-or-External": "Internal"  
+                }
+            ]
+        },
+        "13 Design with Soft Materials (13DSM3)":{
+            "standards":[
+                {   
+                    "Assessment-standard":"A.S. 91610 v3",
+                    "Credits": "6",
+                    "Description": "Generic Technology 3.3 - Develop a conceptual design considering fitness for purpose in the broadest sense",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91611 v3",
+                    "Credits": "6",
+                    "Description": "Generic Technology 3.4 - Develop a prototype considering fitness for purpose in the broadest sense",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91617 v3",
+                    "Credits": "4",
+                    "Description": "Generic Technology 3.10 - Undertake a critique of a technological outcome's design",
+                    "Internal-or-External": "External"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91623 v3",
+                    "Credits": "4",
+                    "Description": "Construction and Mechanical Technologies 3.23 - Implement complex procedures to create an applied design for a specified product",
+                    "Internal-or-External": "Internal"  
+                }
+            ]
+        },
+        "13 Art Visual - Painting or Printmaking (13ARV3)":{
+            "standards":[
+                {   
+                    "Assessment-standard":"A.S. 91446 v2",
+                    "Credits": "4",
+                    "Description": "Painting 3.2 - Use drawing to demonstrate understanding of conventions appropriate to painting",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91448 v2",
+                    "Credits": "4",
+                    "Description": "Printmaking 3.2 - Use drawing to demonstrate understanding of conventions appropriate to printmaking",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91451 v2",
+                    "Credits": "4",
+                    "Description": "Painting 3.3 - Systematically clarify ideas using drawing informed by established painting practice",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91453 v2",
+                    "Credits": "4",
+                    "Description": "Printmaking 3.3 - Systematically clarify ideas using drawing informed by established printmaking practice",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91456 v2",
+                    "Credits": "14",
+                    "Description": "Painting 3.4 - Produce a systematic body of work that integrates conventions and regenerates ideas within painting practice",
+                    "Internal-or-External": "External"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91458 v2",
+                    "Credits": "14",
+                    "Description": "Printmaking 3.4 - Produce a systematic body of work that integrates conventions and regenerates ideas within printmaking practice",
+                    "Internal-or-External": "External"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91460 v2",
+                    "Credits": "4",
+                    "Description": "Visual Arts 3.5 - Produce a resolved work that demonstrates purposeful control of skills appropriate to a visual arts cultural context",
+                    "Internal-or-External": "Internal"  
+                }
+            ]
+        },
+        "13 Design (13DES3)":{
+            "standards":[
+                  {   
+                    "Assessment-standard":"A.S. 91440 v2",
+                    "Credits": "4",
+                    "Description": "Design 3.1 - Analyse methods and ideas from established design practice",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91445 v2",
+                    "Credits": "4",
+                    "Description": "Design 3.2 - Use drawing to demonstrate understanding of conventions appropriate to design",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91450 v2",
+                    "Credits": "4",
+                    "Description": "Design 3.3 - Systematically clarify ideas using drawing informed by established design practice",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91455 v2",
+                    "Credits": "14",
+                    "Description": "Design 3.4 - Produce a systematic body of work that integrates conventions and regenerates ideas within design practice",
+                    "Internal-or-External": "External"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91460 v2",
+                    "Credits": "4",
+                    "Description": "Visual Arts 3.5 - Produce a resolved work that demonstrates purposeful control of skills appropriate to a visual arts cultural context",
+                    "Internal-or-External": "Internal"  
+                }
+            ]
+        },
+        "13 Photography (13PHT3)":{
+            "standards":[
+                  {   
+                    "Assessment-standard":"A.S. 91442 v2",
+                    "Credits": "4",
+                    "Description": "Photography 3.1 - Analyse methods and ideas from established photography practice",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91447 v2",
+                    "Credits": "4",
+                    "Description": "Photography 3.2 - Use drawing to demonstrate understanding of conventions appropriate to photography",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91452 v2",
+                    "Credits": "4",
+                    "Description": "Photography 3.3 - Systematically clarify ideas using drawing informed by established photography practice",
+                    "Internal-or-External": "Internal"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91457 v2",
+                    "Credits": "14",
+                    "Description": "Photography 3.4 - Produce a systematic body of work that integrates conventions and regenerates ideas within photography practice",
+                    "Internal-or-External": "External"  
+                },
+                {   
+                    "Assessment-standard":"A.S. 91460 v2",
+                    "Credits": "4",
+                    "Description": "Visual Arts 3.5 - Produce a resolved work that demonstrates purposeful control of skills appropriate to a visual arts cultural context",
+                    "Internal-or-External": "Internal"  
+                }
+            ]
+        }
+    }
+}
