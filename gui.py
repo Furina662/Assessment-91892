@@ -31,6 +31,12 @@ for subject_name,subject_data in data["ncea_level_3_standards"].items():
                 frame,
                 text=text
             ).pack(anchor="w", padx=20)
+            
+    tk.Button(
+        frame,
+        text="Back",
+        command=lambda f=frame: switch_to_course_page(f)
+    ).pack(pady=20)
 
     pages[subject_name] = frame
 #===============================================================
@@ -50,5 +56,7 @@ for subject_name in pages:
         text=subject_name,
         command=lambda n=subject_name: switch_to_standard_page(n)
     ).pack(pady=5)
+
+
     
 root.mainloop()
