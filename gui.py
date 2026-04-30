@@ -12,7 +12,7 @@ root.geometry('1000x600')
 course_page= tk.Frame(root)
 course_page.grid(row=0, column=0)
 
-tk.Label(course_page, text="please select your course below:", font=("Arial", 16)).grid(row=0, column=0)
+tk.Label(course_page, text="please select your course below:", font=("Arial", 16)).grid(row=0, column=0, columnspan=3)
 
 pages = {}
 #===============================================================
