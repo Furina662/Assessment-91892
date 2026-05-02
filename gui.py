@@ -16,13 +16,35 @@ course_page.grid(row=0, column=0)
 tk.Label(course_page, text="Please select your course below:", font=("Arial", 25, "bold")).grid(row=0, column=0, columnspan=3, sticky="ew")
 
 pages = {}
+drop_down_vars = {}
+#===============================================================
+#saved subject function
+def saved_grades_function():
+    global saved_grades_list
+    saved_grades_list = {}
+    for (subject, standard), var in drop_down_vars.items():
+        grade = var.get()
+        if grade == 'Not Attempted':
+            continue
+        if subject not in saved_grades_list:
+            saved_grades_list[subject] = {}
+        saved_grades_list[subject][standard] = grade
+    print(saved_grades_list)
+#===============================================================
+# switch pages
+def switch_to_standard_page(choosen_subject):
+    course_page.grid_forget()
+    pages[choosen_subject].grid(row=0, column=0, sticky="nsew")
+
+def switch_to_course_page(current_frame):
+    current_frame.grid_forget()
+    course_page.grid(row=0, column=0, sticky="nsew")
 #===============================================================
 #display subjects and standards
 for subject_name,subject_data in data["ncea_level_3_standards"].items():
 
     frame = tk.Frame(root)
     frame.grid_columnconfigure((0,1,2,3), weight=1)
-    root.grid_rowconfigure(0, weight=1)
 
     grade = [
             "Not Attempted",
@@ -31,6 +53,7 @@ for subject_name,subject_data in data["ncea_level_3_standards"].items():
             "Merit",  
             "Excellence" 
             ]
+
     tk.Label(frame,
              text=subject_name,
              anchor="center",
@@ -74,24 +97,24 @@ for subject_name,subject_data in data["ncea_level_3_standards"].items():
             column=3,
             sticky="nsew"
         )
+        drop_down_vars[(subject_name, standard['Assessment-standard'])] = var
     tk.Button(
         frame,
         text="Back",
+        font=("Arial", 14, "bold"),
         command=lambda f=frame: switch_to_course_page(f)
-    ).grid(row=len(subject_data["standards"]) + 2, column=4)
-
+    ).grid(row=len(subject_data["standards"]) + 2, column=3)
+    
+    tk.Button(
+        frame,
+        text="Save Grades",
+        font=("Arial", 14, "bold"),
+        command=saved_grades_function
+    ).grid(row=len(subject_data["standards"]) + 3, column=3)
     pages[subject_name] = frame
-#===============================================================
-# switch pages
-def switch_to_standard_page(choosen_subject):
-    course_page.grid_forget()
-    pages[choosen_subject].grid(row=0, column=0, sticky="nsew")
 
-def switch_to_course_page(current_frame):
-    current_frame.grid_forget()
-    course_page.grid(row=0, column=0, sticky="nsew")
 #===============================================================
-#add buttons
+#add buttons in course page
 row = 1
 col = 0
 for subject_name in pages:
@@ -108,4 +131,5 @@ for subject_name in pages:
     if col == 3:
         col = 0
         row += 1
+
 root.mainloop()
