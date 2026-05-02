@@ -21,17 +21,26 @@ pages = {}
 for subject_name,subject_data in data["ncea_level_3_standards"].items():
 
     frame = tk.Frame(root)
-    frame.grid_columnconfigure((0,1,2), weight=1)
-    frame.grid_columnconfigure(0, weight=1)
+    frame.grid_columnconfigure((0,1,2,3), weight=1)
     root.grid_rowconfigure(0, weight=1)
+
+    grade = [
+            "Not Attempted",
+            "Not Achieved",  
+            "Achieved",  
+            "Merit",  
+            "Excellence" 
+            ]
     tk.Label(frame,
              text=subject_name,
              anchor="center",
-             font=("Arial", 20, "bold")).grid(row=0, column=0, columnspan=3, sticky="ew")
+             font=("Arial", 20, "bold")).grid(row=0, column=0, columnspan=4, sticky="ew")
     
     tk.Label(frame, text="Assessment", anchor="center", font=("Arial", 14, "bold")).grid(row=1, column=0, sticky="nsew")
     tk.Label(frame, text="Credits", anchor="center", font=("Arial", 14, "bold")).grid(row=1, column=1, sticky="nsew")
     tk.Label(frame, text="Type", anchor="center", font=("Arial", 14, "bold")).grid(row=1, column=2, sticky="nsew")
+    tk.Label(frame, text="Grade", anchor="center", font=("Arial", 14, "bold")).grid(row=1, column=3, sticky="nsew")
+
 
     for i, standard in enumerate(subject_data["standards"]):
         tk.Label(frame,
@@ -51,12 +60,25 @@ for subject_name,subject_data in data["ncea_level_3_standards"].items():
                 anchor="center",
                 pady=10,
                 font=("Arial", 16)).grid(row=i+2, column=2, sticky="nsew")
-            
+        var = tk.StringVar()
+        var.set("Not Attempted")
+        drop_down_menu = tk.OptionMenu(frame, var, *grade)
+        drop_down_menu.config(
+            font=("Arial", 14)
+        )
+        drop_down_menu["menu"].config(
+            font=("Arial", 20)
+            )
+        drop_down_menu.grid(
+            row=i+2,
+            column=3,
+            sticky="nsew"
+        )
     tk.Button(
         frame,
         text="Back",
         command=lambda f=frame: switch_to_course_page(f)
-    ).grid(row=len(subject_data["standards"]) + 2, column=0, pady=20)
+    ).grid(row=len(subject_data["standards"]) + 2, column=4)
 
     pages[subject_name] = frame
 #===============================================================
