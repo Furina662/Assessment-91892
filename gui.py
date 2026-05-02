@@ -6,13 +6,14 @@ with open("json/subject.json", "r") as file:
 
 root = tk.Tk()
 root.title("UE Rank Score Calculator")
-root.geometry('1000x600')
+root.geometry('1600x900')
 #===============================================================
-
+root.grid_rowconfigure(0, weight=1)
+root.grid_columnconfigure(0, weight=1)
 course_page= tk.Frame(root)
 course_page.grid(row=0, column=0)
 
-tk.Label(course_page, text="please select your course below:", font=("Arial", 16)).grid(row=0, column=0, columnspan=3)
+tk.Label(course_page, text="Please select your course below:", font=("Arial", 25, "bold")).grid(row=0, column=0, columnspan=3, sticky="ew")
 
 pages = {}
 #===============================================================
@@ -20,10 +21,11 @@ pages = {}
 for subject_name,subject_data in data["ncea_level_3_standards"].items():
 
     frame = tk.Frame(root)
-
+    frame.grid_columnconfigure(0, weight=1)
     tk.Label(frame,
              text=subject_name,
-             font=("Arial", 14, "bold")).grid(row=0, column=0, sticky="w")
+             anchor="center",
+             font=("Arial", 20, "bold")).grid(row=0, column=0, sticky="ew")
     
     for i, standard in enumerate(subject_data["standards"]):
             text = f"{standard['Assessment-standard']} | {standard['Credits']} credits | {standard['Internal-or-External']}"
@@ -56,7 +58,9 @@ for subject_name in pages:
     tk.Button(
         course_page,
         text=subject_name,
-        width=40,
+        width=50,
+        font=("Arial", 13, "bold"),
+        height=2,
         command=lambda n=subject_name: switch_to_standard_page(n)
     ).grid(row=row, column=col, padx=10, pady=10)
 
