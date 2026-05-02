@@ -21,24 +21,42 @@ pages = {}
 for subject_name,subject_data in data["ncea_level_3_standards"].items():
 
     frame = tk.Frame(root)
+    frame.grid_columnconfigure((0,1,2), weight=1)
     frame.grid_columnconfigure(0, weight=1)
+    root.grid_rowconfigure(0, weight=1)
     tk.Label(frame,
              text=subject_name,
              anchor="center",
-             font=("Arial", 20, "bold")).grid(row=0, column=0, sticky="ew")
+             font=("Arial", 20, "bold")).grid(row=0, column=0, columnspan=3, sticky="ew")
     
+    tk.Label(frame, text="Assessment", anchor="center", font=("Arial", 14, "bold")).grid(row=1, column=0, sticky="nsew")
+    tk.Label(frame, text="Credits", anchor="center", font=("Arial", 14, "bold")).grid(row=1, column=1, sticky="nsew")
+    tk.Label(frame, text="Type", anchor="center", font=("Arial", 14, "bold")).grid(row=1, column=2, sticky="nsew")
+
     for i, standard in enumerate(subject_data["standards"]):
-            text = f"{standard['Assessment-standard']} | {standard['Credits']} credits | {standard['Internal-or-External']}"
-            tk.Label(
-                frame,
-                text=text
-            ).grid(row=i+1, column=0, sticky="w", padx=20)
+        tk.Label(frame,
+                text=standard['Assessment-standard'],
+                anchor="center",
+                pady=10,
+                font=("Arial", 16)).grid(row=i+2, column=0, sticky="nsew")
+
+        tk.Label(frame,
+                text=standard['Credits'],
+                anchor="center",
+                pady=10,
+                font=("Arial", 16)).grid(row=i+2, column=1, sticky="nsew")
+
+        tk.Label(frame,
+                text=standard['Internal-or-External'],
+                anchor="center",
+                pady=10,
+                font=("Arial", 16)).grid(row=i+2, column=2, sticky="nsew")
             
     tk.Button(
         frame,
         text="Back",
         command=lambda f=frame: switch_to_course_page(f)
-    ).grid(row=len(subject_data["standards"]) + 1, column=0, pady=20)
+    ).grid(row=len(subject_data["standards"]) + 2, column=0, pady=20)
 
     pages[subject_name] = frame
 #===============================================================
