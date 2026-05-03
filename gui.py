@@ -21,7 +21,7 @@ pages = {}
 drop_down_vars = {}
 #===============================================================
 #saved subject function
-def updade_saved_subject_list_function():
+def update_saved_subject_list_function():
     for widget in saved_frame.winfo_children():
         widget.destroy()
 
@@ -54,7 +54,7 @@ def saved_grades_function():
         if subject not in saved_grades_list:
             saved_grades_list[subject] = {}
         saved_grades_list[subject][standard] = grade
-    updade_saved_subject_list_function()
+    update_saved_subject_list_function()
     switch_to_saved_page()
     print(saved_grades_list)
     
