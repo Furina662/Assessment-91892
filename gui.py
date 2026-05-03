@@ -12,6 +12,8 @@ root.grid_rowconfigure(0, weight=1)
 root.grid_columnconfigure(0, weight=1)
 course_page= tk.Frame(root)
 course_page.grid(row=0, column=0)
+course_page.grid_columnconfigure((0,1,2,3), weight=1)
+
 
 tk.Label(course_page, text="Please select your course below:", font=("Arial", 25, "bold")).grid(row=0, column=0, columnspan=3, sticky="ew")
 
@@ -19,6 +21,23 @@ pages = {}
 drop_down_vars = {}
 #===============================================================
 #saved subject function
+def updade_saved_subject_list_function():
+    for widget in saved_frame.winfo_children():
+        widget.destroy()
+
+    tk.Label(saved_frame, text="Subject", font=("Arial", 16, "bold")).grid(row=0, column=0, padx=10)
+    tk.Label(saved_frame, text="Standard", font=("Arial", 16, "bold")).grid(row=0, column=1, padx=10)
+    tk.Label(saved_frame, text="Grade", font=("Arial", 16, "bold")).grid(row=0, column=2, padx=10)
+
+    row_i = 1
+
+    for subject, standards in saved_grades_list.items():
+        for standard, grade in standards.items():
+            tk.Label(saved_frame, text=subject, font=("Arial", 16)).grid(row=row_i, column=0, padx=10)
+            tk.Label(saved_frame, text=standard, font=("Arial", 16)).grid(row=row_i, column=1, padx=10)
+            tk.Label(saved_frame, text=grade, font=("Arial", 16)).grid(row=row_i, column=2, padx=10)
+            row_i += 1
+
 def saved_grades_function():
     global saved_grades_list
     saved_grades_list = {}
@@ -29,7 +48,9 @@ def saved_grades_function():
         if subject not in saved_grades_list:
             saved_grades_list[subject] = {}
         saved_grades_list[subject][standard] = grade
+    updade_saved_subject_list_function()
     print(saved_grades_list)
+    
 #===============================================================
 # switch pages
 def switch_to_standard_page(choosen_subject):
@@ -131,5 +152,14 @@ for subject_name in pages:
     if col == 3:
         col = 0
         row += 1
+tk.Label(
+    course_page,
+    text="Saved Subjects",
+    anchor="center",
+    font=("Arial", 14, "bold")
+    ).grid(row=(row + 1), column=0, columnspan=3, sticky="nsew")
+
+saved_frame = tk.Frame(course_page)
+saved_frame.grid(row=row+2, column=0, columnspan=3, pady=10)
 
 root.mainloop()
