@@ -37,12 +37,6 @@ def update_saved_subject_list_function():
             tk.Label(saved_frame, text=grade, font=("Arial", 18)).grid(row=row_i, column=2, padx=10)
             row_i += 1
 
-    tk.Button(
-    saved_page,
-    text="Add more subjects",
-    font=("Arial", 14, "bold"),
-    command=switch_to_course_page
-).grid(row=row_i + 3, column=2, pady=10)
     
 def saved_grades_function():
     global saved_grades_list
@@ -185,5 +179,10 @@ tk.Label(
     ).grid(row=1, column=0, columnspan=3, sticky="nsew")
 saved_frame = tk.Frame(saved_page)
 saved_frame.grid(row=2 , column=0, columnspan=3, pady=10)
-
+tk.Button(
+    saved_page,
+    text="Add more subjects",
+    font=("Arial", 14, "bold"),
+    command=switch_to_course_page
+).grid(row=3, column=2, pady=10)
 root.mainloop()
