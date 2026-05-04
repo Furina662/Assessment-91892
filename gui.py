@@ -38,11 +38,11 @@ def update_saved_subject_list_function():
             row_i += 1
 
     tk.Button(
-    saved_frame,
+    saved_page,
     text="Add more subjects",
     font=("Arial", 14, "bold"),
     command=switch_to_course_page
-).grid(row=row_i + 3, column=3, pady=10)
+).grid(row=row_i + 3, column=2, pady=10)
     
 def saved_grades_function():
     global saved_grades_list
