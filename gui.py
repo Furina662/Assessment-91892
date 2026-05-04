@@ -1,5 +1,6 @@
 import tkinter as tk
 import json
+from calculate import calculate
 
 with open("json/subject.json", "r") as file:
     data = json.load(file)
@@ -14,7 +15,7 @@ course_page= tk.Frame(root)
 course_page.grid(row=0, column=0)
 course_page.grid_columnconfigure((0,1,2,3), weight=1)
 saved_page = tk.Frame(root)
-saved_page.grid_columnconfigure((0,1,2), weight=1)
+saved_page.grid_columnconfigure((0,1,2,3), weight=1)
 tk.Label(course_page, text="Please select your course below:", font=("Arial", 25, "bold")).grid(row=0, column=0, columnspan=3, sticky="ew")
 
 pages = {}
@@ -29,13 +30,15 @@ def update_saved_subject_list_function():
     tk.Label(saved_frame, text="Subject", font=("Arial", 18, "bold")).grid(row=0, column=0, padx=10)
     tk.Label(saved_frame, text="Standard", font=("Arial", 18, "bold")).grid(row=0, column=1, padx=10)
     tk.Label(saved_frame, text="Grade", font=("Arial", 18, "bold")).grid(row=0, column=2, padx=10)
+    tk.Label(saved_frame, text="Credits", font=("Arial", 18, "bold")).grid(row=0, column=3, padx=10)
     row_i = 2
 
     for subject, standards in saved_grades_list.items():
         for standard, grade in standards.items():
             tk.Label(saved_frame, text=subject, font=("Arial", 18)).grid(row=row_i, column=0, padx=10)
             tk.Label(saved_frame, text=standard, font=("Arial", 18)).grid(row=row_i, column=1, padx=10)
-            tk.Label(saved_frame, text=grade, font=("Arial", 18)).grid(row=row_i, column=2, padx=10)
+            tk.Label(saved_frame, text=grade['grade'], font=("Arial", 18)).grid(row=row_i, column=2, padx=10)
+            tk.Label(saved_frame, text=grade['credits'], font=("Arial", 18)).grid(row=row_i, column=3, padx=10)
             row_i += 1
 
 def saved_grades_function(current_subject):
@@ -45,7 +48,18 @@ def saved_grades_function(current_subject):
             grade = var.get()
             if grade == 'Not Attempted':
                 continue
-            saved_grades_list[subject][standard] = grade
+            subject_info = data["ncea_level_3_standards"].get(subject)
+            standards_in_json = subject_info.get("standards", [])
+            credit_value = 0
+            for s in standards_in_json:
+                if s['Assessment-standard'] == standard:
+                    credit_value = int(s['Credits'])
+                    break
+
+            saved_grades_list[subject][standard] = {
+                'grade': grade,
+                'credits': credit_value
+            }
     update_saved_subject_list_function()
     switch_to_saved_page()
     print(saved_grades_list)
@@ -167,20 +181,27 @@ tk.Label(
     text="Your grade was be saved successfully.",
     anchor="center",
     font=("Arial", 25, "bold")
-    ).grid(row=0, column=0, columnspan=3, sticky="nsew")
+    ).grid(row=0, column=0, columnspan=4, sticky="nsew")
 
 tk.Label(
     saved_page,
     text="Saved Subjects",
     anchor="center",
     font=("Arial", 25, "bold")
-    ).grid(row=1, column=0, columnspan=3, sticky="nsew")
+    ).grid(row=1, column=0, columnspan=4, sticky="nsew")
 saved_frame = tk.Frame(saved_page)
-saved_frame.grid(row=2 , column=0, columnspan=3, pady=10)
+saved_frame.grid(row=2 , column=0, columnspan=4, pady=10)
 tk.Button(
     saved_page,
     text="Add more subjects",
     font=("Arial", 14, "bold"),
     command=switch_to_course_page
-).grid(row=3, column=2, pady=10)
+).grid(row=3, column=3, pady=10)
+
+tk.Button(
+    saved_page,
+    text="Calculate Rank Score",
+    font=("Arial", 14, "bold"),
+    command=switch_to_course_page
+).grid(row=4, column=3, pady=10)
 root.mainloop()
