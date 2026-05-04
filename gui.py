@@ -19,6 +19,7 @@ tk.Label(course_page, text="Please select your course below:", font=("Arial", 25
 
 pages = {}
 drop_down_vars = {}
+saved_grades_list = {}
 #===============================================================
 #saved subject function
 def update_saved_subject_list_function():
@@ -37,17 +38,14 @@ def update_saved_subject_list_function():
             tk.Label(saved_frame, text=grade, font=("Arial", 18)).grid(row=row_i, column=2, padx=10)
             row_i += 1
 
-    
-def saved_grades_function():
-    global saved_grades_list
-    saved_grades_list = {}
+def saved_grades_function(current_subject):
+    saved_grades_list[current_subject] = {}
     for (subject, standard), var in drop_down_vars.items():
-        grade = var.get()
-        if grade == 'Not Attempted':
-            continue
-        if subject not in saved_grades_list:
-            saved_grades_list[subject] = {}
-        saved_grades_list[subject][standard] = grade
+        if subject == current_subject:
+            grade = var.get()
+            if grade == 'Not Attempted':
+                continue
+            saved_grades_list[subject][standard] = grade
     update_saved_subject_list_function()
     switch_to_saved_page()
     print(saved_grades_list)
@@ -140,7 +138,7 @@ for subject_name,subject_data in data["ncea_level_3_standards"].items():
         frame,
         text="Save Grades",
         font=("Arial", 14, "bold"),
-        command=saved_grades_function
+        command=lambda s=subject_name: saved_grades_function(s)
     ).grid(row=len(subject_data["standards"]) + 3, column=3)
     pages[subject_name] = frame
 
